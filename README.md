@@ -1,4 +1,3 @@
-Todo-List-Application
 ![Screenshot (893)](https://github.com/LakshmiNarsitha/Todo-List-Application/assets/79990816/bf91ea3d-8372-4516-88f1-1dc212198b8a)
 ![Screenshot (894)](https://github.com/LakshmiNarsitha/Todo-List-Application/assets/79990816/40b6f805-0178-48cd-baab-de441844b7b8)
 ![Screenshot (895)](https://github.com/LakshmiNarsitha/Todo-List-Application/assets/79990816/6c5832ae-adea-493f-b5a0-bcef29cd3d07)
