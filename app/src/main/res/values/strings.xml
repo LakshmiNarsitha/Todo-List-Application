@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Todolist</string>
+    <string name="category_prompt">Select Category</string>
+    <string-array name="category_array">
+        <item>Please select category</item>
+        <item>Work</item>
+        <item>Study</item>
+        <item>Personal</item>
+    </string-array>
+    <string name="priority_prompt">Select Priority</string>
+    <string-array name="priority_array">
+        <item>Please select priority</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

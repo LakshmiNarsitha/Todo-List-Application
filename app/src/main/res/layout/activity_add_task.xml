@@ -1,0 +1,72 @@
+<!-- res/layout/activity_add_task.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddTaskActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:inputType="textCapSentences"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description"
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_below="@id/etTaskTitle"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/etTaskDescription"
+        android:background="@drawable/spinner_background"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/spinnerCategory"
+        android:background="@drawable/spinner_background"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Single EditText for selecting date and time -->
+    <EditText
+        android:id="@+id/etTaskDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Expiry Date and Time"
+        android:layout_below="@id/spinnerPriority"
+        android:layout_marginTop="16dp"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_below="@id/etTaskDateTime"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
