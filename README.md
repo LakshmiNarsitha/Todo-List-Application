@@ -1,18 +1,18 @@
 # TodoList Application
 
 # Description
-This is a todo list application which enables the user 
-1.to add new task title
-2.write description about task
-3.choose task priority
-4.choose task category
-5.assign a deadline for task
+This is a todo list application which enables the user <br/>
+1.to add new task title <br/>
+2.write description about task <br/>
+3.choose task priority <br/>
+4.choose task category <br/>
+5.assign a deadline for task <br/>
 
 # Instruction
-Open android studio and click on run button
-Click on add task which enables user to write about task title, task description, category of task, priority of task and it's deadline.
-Later click on Add task then task will be added to the tasks list.
-After expiration of deadline it will show task is Expired.
+Open android studio and click on run button <br/>
+Click on add task which enables user to write about task title, task description, category of task, priority of task and it's deadline. <br/>
+Later click on Add task then task will be added to the tasks list. <br/>
+After expiration of deadline it will show task is Expired. <br/>
 
 # Screenshots
 ![Screenshot (893)](https://github.com/LakshmiNarsitha/Todo-List-Application/assets/79990816/bf91ea3d-8372-4516-88f1-1dc212198b8a)
